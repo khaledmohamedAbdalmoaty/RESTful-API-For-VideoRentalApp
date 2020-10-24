@@ -1,0 +1,49 @@
+{
+  "name": "working_folder",
+  "version": "1.0.0",
+  "description": "this an introduction to node ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose ",
+    "start":"node index.js"
+  },
+  "engines": {
+    "node":"12.18.3"
+  },
+  "author": "khaled abdalmoaty",
+  "license": "ISC",
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.15",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "config": "^3.3.2",
+    "cookie-session": "^1.4.0",
+    "d": "^1.0.1",
+    "debug": "^4.1.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "fawn": "^2.1.5",
+    "helmet": "^4.1.1",
+    "joi": "^17.2.1",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.6",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "request": "^2.88.2",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.0",
+    "nodemon": "^2.0.4",
+    "supertest": "^3.0.0"
+  }
+}
